@@ -8,12 +8,6 @@ function getWords(e) {
   let start = document.getElementById('starts_with').value;
   let end = document.getElementById('ends_with').value;
 
-  //let blurAmount = document.getElementById('blurAmount').value;
-  //let random = Math.floor(Math.random() * 10000);
-  //let number = document.getElementById('number').value;
-  //let s = document.getElementById('selector');
-  //let type = s.options[s.selectedIndex].value;
-
   // setup URL
   let url = "https://api.datamuse.com/words?";
   if (related_to !== "") {
@@ -61,7 +55,7 @@ function displayWords(words) {
     display.innerHTML = html;
   } else {
     display.innerHTML = "<p>We couldn't find any words matching that description... Looks like you'll have to make your own!</p>" +
-    "<p><strong>Tip:</strong> Try using only one box at a time. You can get more specific when know what you have to work with.</p>"
+    "<p><strong>Tip:</strong> Try using only one box at a time. You can get more specific after you know what you have to work with.</p>"
   }
 }
 
