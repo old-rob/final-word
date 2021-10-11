@@ -1,0 +1,16 @@
+.bg-main {
+  background-color: #2eb850;
+}
+
+.bg-sub {
+  background-color: #29a347;
+}
+
+.bg-black {
+  background-color: #111;
+}
+
+.header-text {
+  font-size: 4em;
+  color: white;
+}
