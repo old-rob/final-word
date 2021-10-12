@@ -49,11 +49,10 @@ function getWords(e) {
 function displayWords(words) {
   let display = document.getElementById('word-display');
   if (words.length > 0) {
-    html = ""//'<div class="d-flex flex-wrap">';
+    html = "";
     for(let word of words) {
       html += '<div class="m-2 p-2 alert alert-success">' + word + '</div>'
     }
-    //html += '</div>'
     display.innerHTML = html;
   } else {
     display.innerHTML = "<p>We couldn't find any words matching that description... Looks like you'll have to make your own!</p>" +
