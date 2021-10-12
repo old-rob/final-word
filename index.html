@@ -31,6 +31,7 @@
     <h5>Describe the word you're looking for.</h5>
     <p>Remember that each field will reduce the number of results,
       so it's better to start with only one or two criteria and narrow your search if there are too many eligible words.</p>
+    <p>If you're new here try typing "ocean" in the first box and press enter</p>
     <form>
       <h5>I need a word that...</h5>
       <fieldset>
@@ -38,7 +39,7 @@
           <div class="col-md-4">
             <label for="related_to" class="col-form-label">Means something like: </label>
             <input type="text" id="related_to" class="form-control">
-            <span class="form-text">Using only this box is a little like using a thesaurus.</span>
+            <span class="form-text">Type one word and it's like using a thesaurus.</span>
           </div>
           <div class="col-md-4">
             <label for="noun_desc" class="col-form-label"> or describes a: </label>
@@ -79,7 +80,7 @@
       </fieldset>
     </form>
 
-    <div id="word-display" class="container">
+    <div id="word-display" class="container w-100 d-flex flex-wrap">
     </div>
   </div>
 
@@ -88,7 +89,7 @@
     <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
       <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;fill: #111;"></path>
     </svg>
-    <div class="bg-black text-center text-light p-3" style="transform: translate(0%, -100%);">
+    <div class="bg-black text-center text-light p-3" style="transform: translate(0%, -80%);">
       Copyright © 2021 Robert Oldroyd.
       <a class="text-light" href="https://github.com/old-rob/final-word">This Site on GitHub</a>
     </div>
